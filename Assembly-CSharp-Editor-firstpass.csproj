@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7E7B6C19-AC3B-9ABD-6C17-8AE65E77E19D}</ProjectGuid>
+    <ProjectGuid>{AF7D3B6D-2FFA-3D54-B1D4-97E9918C77C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -269,7 +269,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/mahno/OneDrive/Documents/unity projects/A Race Against Time/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/mahno/OneDrive/Documents/unity projects/A-Race-Against-Time/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -628,75 +628,75 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{2BDB7FF3-D5A7-AB49-4696-FD81C78E5963}</Project>
+      <Project>{56A1F350-A6B9-E69E-3CEA-3F2995EFCA9D}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{FA92E34F-EC53-CBBE-CB50-5232A1C21310}</Project>
+      <Project>{6088D874-990C-1D93-ECF8-8B365715EA28}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{473292DF-39D4-EB69-2FDB-DB20D9BCDFD2}</Project>
+      <Project>{683D8FE5-0999-79B6-6F54-8F3FB2D42C5F}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{CF6257BC-E811-F0E4-81FF-34BE223E01AF}</Project>
+      <Project>{C6F94A87-F52B-BE87-0844-D57FF1C05E57}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.csproj">
-      <Project>{17D52784-1A01-D299-5363-D5B332E7D5F8}</Project>
+      <Project>{AD8E4B50-D2D6-5B19-61DE-30658F64CCA2}</Project>
       <Name>Unity.ProGrids</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{40245A73-4581-96C1-6B2F-531DDBE4766D}</Project>
+      <Project>{7FD20897-209E-A391-4463-F70675479BA5}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.Editor.csproj">
-      <Project>{01BD076F-AFE9-01DF-1BC8-948B0CC9C9D9}</Project>
+      <Project>{8B81C152-D5FB-CEF2-1D5F-20A6D743D276}</Project>
       <Name>Unity.ProGrids.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{E4BB60E0-03B8-D06E-1573-CEE43303FA6C}</Project>
+      <Project>{2EE2554F-0DCF-CF26-830B-77C59BF14E4F}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{20B21A2A-F162-7488-6C05-41918693FB1F}</Project>
+      <Project>{C9D02878-C09B-9530-FAFE-1ED03BF2EC29}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{8BD21A5C-A240-D9F9-AA82-5812020A9135}</Project>
+      <Project>{52D7AB55-4C33-0123-18EA-5D9AC01E37BF}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{5182441D-7DEC-3ADB-BCAD-F538DC99F971}</Project>
+      <Project>{AF6EDE21-F11C-BCEB-BB6B-03B8D63E032C}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{332150CA-68AA-538A-02D9-9175612BC948}</Project>
+      <Project>{895FC6F3-3D09-78CA-5E06-76526848857F}</Project>
       <Name>Unity.Postprocessing.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{2F6D50BD-65A5-E1CE-1099-53335771D252}</Project>
+      <Project>{EF0B448A-9C2A-0ECA-B99E-17408048626A}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{DD480D25-68C2-B753-886D-1920F5E156AF}</Project>
+      <Project>{73618B4B-3801-8FA1-97DF-620B480B2CD4}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{18C5C001-0315-622E-3D5F-89DEE567CF64}</Project>
+      <Project>{578ADB04-F028-6C8C-064D-BBC2AD269918}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{04DD5234-8869-1623-AE96-0A0C1E9906B1}</Project>
+      <Project>{D2B1A992-FDA0-4AB1-A319-2A378FDD61E5}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{4E4A4146-318A-47E8-CB18-DFDC491D521D}</Project>
+      <Project>{BD40D329-4549-600D-57C6-5C016E520408}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{4CA1EC72-035E-1FBF-F1B4-8420CA8D31D0}</Project>
+      <Project>{BA4AFBC0-3F83-E6F3-D708-9CE1F91DF3DB}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DD480D25-68C2-B753-886D-1920F5E156AF}</ProjectGuid>
+    <ProjectGuid>{73618B4B-3801-8FA1-97DF-620B480B2CD4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Sprite.Editor</AssemblyName>
@@ -296,7 +296,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/mahno/OneDrive/Documents/unity projects/A Race Against Time/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/mahno/OneDrive/Documents/unity projects/A-Race-Against-Time/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -655,19 +655,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{4CA1EC72-035E-1FBF-F1B4-8420CA8D31D0}</Project>
+      <Project>{BA4AFBC0-3F83-E6F3-D708-9CE1F91DF3DB}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{20B21A2A-F162-7488-6C05-41918693FB1F}</Project>
+      <Project>{C9D02878-C09B-9530-FAFE-1ED03BF2EC29}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{FA92E34F-EC53-CBBE-CB50-5232A1C21310}</Project>
+      <Project>{6088D874-990C-1D93-ECF8-8B365715EA28}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{473292DF-39D4-EB69-2FDB-DB20D9BCDFD2}</Project>
+      <Project>{683D8FE5-0999-79B6-6F54-8F3FB2D42C5F}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

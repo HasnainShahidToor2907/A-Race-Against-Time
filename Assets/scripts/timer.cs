@@ -13,7 +13,7 @@ public class timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startingtime = 3.0f;
+        startingtime = 5.0f;
         currenttime = startingtime;
         
     }
@@ -23,10 +23,10 @@ public class timer : MonoBehaviour
     {   
         currenttime = currenttime - 1 * Time.deltaTime;
         screentext.text = currenttime.ToString("00");
-        if (currenttime == 0) ; 
+        if (currenttime <=0)  
         {
-
+            screentext.text = "GO!";
         }
-        //Debug.Log(currenttime);
+        Debug.Log(currenttime);
     }
 }
