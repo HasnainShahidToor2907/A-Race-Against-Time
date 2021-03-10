@@ -5461,6 +5461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickupEffect: {fileID: 1329845292236604, guid: 9bba9cf244c53c5439505dfc96fdd11c,
     type: 3}
+  MainTimer: 0
 --- !u!65 &2097321785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5528,13 +5529,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097321783}
-  m_LocalRotation: {x: -0.0109223975, y: 0.07860552, z: 0.0065231374, w: 0.9968247}
+  m_LocalRotation: {x: 0.0052289194, y: 0.003732584, z: 0.007266526, w: 0.999953}
   m_LocalPosition: {x: -0.04, y: 1.51, z: -2458.39}
   m_LocalScale: {x: 1.2518501, y: 1.2518501, z: 1.2518501}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: -1.307, y: 9.01, z: 0.647}
+  m_LocalEulerAnglesHint: {x: 0.596, y: 0.432, z: 0.83500004}
 --- !u!54 &2097321789
 Rigidbody:
   m_ObjectHideFlags: 0
