@@ -6,17 +6,26 @@ public class powerup : MonoBehaviour
 {
     public GameObject PickupEffect;
     public float MainTimer;
+    Renderer rand;
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) ;
+        if (other.CompareTag("Player"))
         {
             Pickup();
         }
-    }
-    void Pickup()
-    {
-        Instantiate(PickupEffect, transform.position, transform.rotation);
-        Destroy(this);
+        
     }
     
+    void Pickup()
+    {
+
+        Instantiate(PickupEffect, transform.position, transform.rotation);
+        Hiding();
+        Destroy(this);
+
+    }
+    void Hiding()
+    {
+        Renderer.
+    }
 }    

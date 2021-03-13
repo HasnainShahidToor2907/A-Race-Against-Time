@@ -1827,6 +1827,10 @@ PrefabInstance:
       value: car
       objectReference: {fileID: 0}
     - target: {fileID: 1216336052455082, guid: 5d2d294a55c8dad4f863791b2ec6aa9e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216336052455082, guid: 5d2d294a55c8dad4f863791b2ec6aa9e, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
