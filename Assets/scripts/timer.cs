@@ -27,6 +27,6 @@ public class timer : MonoBehaviour
         {
             screentext.text = "GO!";
         }
-        Debug.Log(currenttime);
+       // Debug.Log(currenttime);
     }
 }

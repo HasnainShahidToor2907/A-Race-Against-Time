@@ -7,6 +7,12 @@ public class powerup : MonoBehaviour
     public GameObject PickupEffect;
     public float MainTimer;
     Renderer rand;
+
+    public void Start()
+    {
+        rand = GetComponent<Renderer>();
+        rand.enabled = true;
+    }
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -26,6 +32,6 @@ public class powerup : MonoBehaviour
     }
     void Hiding()
     {
-        Renderer.
+        rand.enabled=false;
     }
 }    
