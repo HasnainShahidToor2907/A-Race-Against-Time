@@ -17,12 +17,12 @@ public class powerup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Pickup();
+            Pickup(other);
         }
         
     }
     
-    void Pickup()
+    void Pickup(Collider Player)
     {
 
         Instantiate(PickupEffect, transform.position, transform.rotation);
